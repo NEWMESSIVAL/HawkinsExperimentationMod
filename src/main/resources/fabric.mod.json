@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "hawkins-experimentation-mod",
+	"id": "hawkins_experimentation_mod",
 	"version": "${version}",
 	"name": "Hawkins Experimentation Mod",
 	"description": "This is a test for my first ever Fabric mod.",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/hawkins-experimentation-mod/icon.png",
+	"icon": "assets/hawkins_experimentation_mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hawkins_experimentation_mod:item/test"
+  }
+}

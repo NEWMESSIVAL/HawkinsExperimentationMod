@@ -1,0 +1,190 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "hawkins_experimentation_mod:item/hytale_iron_sword"
+	},
+	"elements": [
+		{
+			"name": "Handle",
+			"from": [6.68742, 1.64375, 7.59375],
+			"to": [10.26242, 2.45625, 8.40625],
+			"rotation": {"x": 0, "y": 0, "z": 90, "origin": [8.47492, 2.05, 8]},
+			"faces": {
+				"north": {"uv": [13, 12, 7.5, 9.5], "texture": "#0"},
+				"south": {"uv": [7.5, 9.5, 13, 12], "texture": "#0"},
+				"west": {"uv": [0, 13.5, 1.25, 16], "texture": "#0"},
+				"up": {"uv": [7.5, 7, 13, 9.5], "texture": "#0"},
+				"down": {"uv": [7.5, 7, 13, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Pommel",
+			"from": [8.14992, 0.18125, 7.43125],
+			"to": [8.79992, 1.31875, 8.56875],
+			"rotation": {"x": 0, "y": 0, "z": 90, "origin": [8.47492, 0.75, 8]},
+			"faces": {
+				"north": {"uv": [14.25, 7, 13.25, 10.5], "texture": "#0"},
+				"east": {"uv": [14.25, 7, 16, 10.5], "texture": "#0"},
+				"south": {"uv": [13.25, 7, 14.25, 10.5], "texture": "#0"},
+				"west": {"uv": [14.25, 7, 16, 10.5], "texture": "#0"},
+				"up": {"uv": [13.25, 7, 14.25, 10.5], "texture": "#0"},
+				"down": {"uv": [13.25, 7, 14.25, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Crossguard",
+			"from": [9.93742, 0.01875, 7.59375],
+			"to": [10.91242, 4.73125, 8.40625],
+			"rotation": {"x": 0, "y": 0, "z": 90, "origin": [8.47492, 2.375, 8]},
+			"faces": {
+				"north": {"uv": [7.25, 8, 0, 11], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [7.25, 13.5, 0, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.25, 11, 0, 8], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [7.25, 13.5, 0, 11], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [1.25, 13.5, 2.75, 16], "texture": "#0"},
+				"down": {"uv": [1.25, 13.5, 2.75, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Sword Base",
+			"from": [2.885, 9.44375, 7.75625],
+			"to": [7.76, 11.55625, 8.24375],
+			"rotation": {"x": 0, "y": 0, "z": 90, "origin": [8.57242, 10.5, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 0, 0, 6.5], "texture": "#0"},
+				"east": {"uv": [5.5, 0, 6.25, 6.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 7.5, 6.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 7.5, 1.5], "texture": "#0"},
+				"down": {"uv": [0, 6.5, 7.5, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Sword Middle",
+			"from": [-1.665, 18.96625, 7.8375],
+			"to": [3.0475, 20.75375, 8.1625],
+			"rotation": {"x": 0, "y": 0, "z": 90, "origin": [8.57242, 19.86, 8]},
+			"faces": {
+				"north": {"uv": [14.75, 0.5, 7.5, 6], "texture": "#0"},
+				"east": {"uv": [12, 0.5, 12.5, 6], "texture": "#0"},
+				"south": {"uv": [7.5, 0.5, 14.75, 6], "texture": "#0"},
+				"up": {"uv": [7.5, 0.5, 14.75, 1.5], "texture": "#0"},
+				"down": {"uv": [7.5, 6, 14.75, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Sword Tip",
+			"from": [-1.5025, 23.51625, 8],
+			"to": [-0.04, 25.30375, 8],
+			"rotation": {"x": 0, "y": 0, "z": 90, "origin": [8.57242, 24.41, 8]},
+			"faces": {
+				"north": {"uv": [16, 10.5, 13.75, 16], "texture": "#0"},
+				"south": {"uv": [13.75, 10.5, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0.25, 7.5, 2.5],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0.25, 7.5, 1],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -91, 21],
+			"translation": [-0.5, 7.5, -2],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -91, 21],
+			"translation": [0.75, 7.5, -2],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"ground": {
+			"rotation": [89, 0, 79],
+			"translation": [0, -0.25, 1.5]
+		},
+		"gui": {
+			"rotation": [0, 0, -45],
+			"translation": [-0.25, 0.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	},
+	"groups": [
+		{
+			"name": "R-Attachment",
+			"origin": [8, 13, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "Origin_Projectile",
+					"origin": [7.99993, 77, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Origin_Blade",
+							"origin": [7.99993, 55, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Origin_Item",
+									"origin": [7.99993, 45, 8],
+									"color": 0,
+									"children": [
+										{
+											"name": "Handle",
+											"origin": [8, 13, 8],
+											"color": 0,
+											"children": [
+												0,
+												{
+													"name": "Pommel",
+													"origin": [-2.00048, 13, 8],
+													"color": 0,
+													"children": [1]
+												},
+												{
+													"name": "Crossguard",
+													"origin": [19.99952, 13, 8],
+													"color": 0,
+													"children": [2]
+												},
+												{
+													"name": "Sword Base",
+													"origin": [24.99952, 13, 8],
+													"color": 0,
+													"children": [
+														3,
+														{
+															"name": "Sword Middle",
+															"origin": [53.99952, 13, 8],
+															"color": 0,
+															"children": [
+																4,
+																{
+																	"name": "Sword Tip",
+																	"origin": [79.99952, 13, 8],
+																	"color": 0,
+																	"children": [5]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
